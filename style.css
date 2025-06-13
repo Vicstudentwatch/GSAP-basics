@@ -20,7 +20,7 @@ button{
     cursor: pointer;
     margin-top: 20px;
     position: relative;
-    left: 50%;
+    left: 40%;
     margin-top: 50px; /* Half of button width */
     transform: translateX(-50%);;
 

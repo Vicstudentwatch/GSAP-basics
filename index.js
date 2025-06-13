@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     })
     document.querySelector("#Pause").onclick = () => tweenTo.pause();
     document.querySelector("#Resume").onclick = () => tweenTo.resume();
+    document.querySelector("#Reverse").onclick = () => tweenTo.reverse();
+    document.querySelector("#Restart").onclick = () => tweenTo.restart();
 })
 
 
