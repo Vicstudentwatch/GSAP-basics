@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin-top: 50px;
+    border-top: 1px solid #000;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    margin-top: 50px; /* Half of button width */
+    transform: translateX(-50%);;
+
+    
+
+
+}
