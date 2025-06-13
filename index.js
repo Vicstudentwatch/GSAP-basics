@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     tl.to(".box1", { x: 500,duration:5, rotation: 360, borderTop: "8px solid red" ,opacity:0})
     tl.fromTo(".box2", { x: 0, backgroundColor: "red", opacity: 1 }, { x: 200, backgroundColor: "blue", opacity: 0, duration: 3 }, "-=3")
-    tl.to(".box3", { scale: 1.5 }, "+=0.5");
+    tl.to(".box3", { x:500,borderRadius:"50%" ,ease:"elastic",duration:2}, "+=0.5");
 
     document.querySelector("#Pause").onclick = () => tl.pause();
     document.querySelector("#Resume").onclick = () => tl.resume();
