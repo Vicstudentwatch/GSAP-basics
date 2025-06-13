@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 200vh;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.bar {
+  width: 0%;
+  height: 20px;
+  background-color: #08fb00;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
