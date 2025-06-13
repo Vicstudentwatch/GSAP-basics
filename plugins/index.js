@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded", (e) => gsap.timeline({scrollTrigger:{scrub: true}}).to(".bar",{width:"100%"}))
+document.addEventListener("DOMContentLoaded", e => gsap.timeline({scrollTrigger:{scrub: true}}).to(".bar",{width:"100%"}))
